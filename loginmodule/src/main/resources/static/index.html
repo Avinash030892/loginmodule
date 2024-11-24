@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Internal CSS for demonstration */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-top: -10px;
+        }
+
+        nav {
+            margin-top: 100px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 15px 25px;
+            background-color: #ffffff;
+            color: #333;
+            border-radius: 5px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .hero {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            text-align: center;
+            margin: 30px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ffffff;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plan Your Next Adventure</h1>
+        <p>Your ultimate travel planning assistant</p>
+    </header>
+
+    <nav>
+      
+        <a href="contact.html">Contact Us</a>
+        <a href="regPage">Register</a>
+    </nav>
+
+<!--     <section class="hero">
+        <img src="images/images.jpg" alt="Travel Planner Hero Image">
+    </section> -->
+
+    <section class="content">
+        <h2>Welcome to Travel Planner</h2>
+        <p>
+            Discover the world's most amazing destinations, create a personalized itinerary, and make your travel experience unforgettable. 
+            Whether you're planning a weekend getaway or a dream vacation, we're here to help you every step of the way.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Planner Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
